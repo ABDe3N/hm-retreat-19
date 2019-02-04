@@ -18,7 +18,6 @@ a {
 }
 
 h1,
-h2,
 h3 {
   font-family: "Lato", sans-serif;
 }
@@ -195,3 +194,46 @@ footer {
     margin-bottom: 5rem;
   }
 }
+
+/* Single Page */
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#left {
+  flex: 1;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80%22");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#right {
+  flex: 1;
+  background-color: #3d3f3e;
+  text-align: left;
+  padding: 2rem;
+}
+
+#right-content{
+  line-height: 2;
+  color: #adadb0;
+}
+
+#right h1 {
+  color: white;
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+}
+
+#right h2 {
+  font-family: "Lato", sans-serif;
+  color: #ffc629;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-top: 1rem;
